@@ -7,7 +7,7 @@ import carrousel2 from "./carrousela.svg";
 import red_sneaker_pc from "./tenis-vermelho-pc.png";
 import mobile_carrousel1 from "./stret-red.svg";
 import tenis_red_mobile from './tenis-red-mobile.svg'
-import tenis_amarelo_pc from './Tenis-amarelo-pcV1.png'
+import tenis_amarelo_pc from './tenis-amarelo-pcV1.png'
 import yellow_sneaker_mobile from './tenis_amarelo_mobileV2.png'
 
 
