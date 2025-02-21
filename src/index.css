@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 rounded-md bg-light-primary dark:bg-dark-primary text-white 
+           transition-all duration-200 hover:opacity-90 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 rounded-md border border-light-border dark:border-dark-border
+           transition-all duration-200 hover:bg-light-border/10 dark:hover:bg-dark-border/10;
+  }
+
+  .input-primary {
+    @apply w-full px-4 py-2 rounded-md border border-light-border dark:border-dark-border
+           bg-white dark:bg-dark-bg focus:outline-none focus:ring-2 focus:ring-light-primary
+           dark:focus:ring-dark-primary transition-all duration-200;
+  }
+}
+
+.skeleton {
+  @apply animate-pulse bg-light-border/20 dark:bg-dark-border/20 rounded;
+}
